@@ -24,8 +24,8 @@ class ViewController: UIViewController {
         let number1 = Int(textField1.text ?? "") ?? 0
         let number2 = Int(textField2.text ?? "") ?? 0
 
-        let numberLabel1 = switch1.isOn ?  -number1 : number1
-        let numberLabel2 = switch2.isOn ?  -number2 : number2
+        let numberLabel1 = switch1.isOn ? -number1 : number1
+        let numberLabel2 = switch2.isOn ? -number2 : number2
         
         label1.text = "\(numberLabel1)"
         label2.text = "\(numberLabel2)"
